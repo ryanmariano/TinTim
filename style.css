@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: 450px;
+  margin: 30px;
+}
+
+.testing {
+  display: flex;
+  justify-content: center;
+  margin-right: 400px;
+  gap: 10px;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  background-color: lightsteelblue;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topics {
+  display: flex;
+  gap: 50px;
+  justify-content: end;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  list-style: none;
+  margin-right: 100px;
+}
+
+nav {
+  align-self: flex-end;
+}
+
+.writing {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.icons {
+  font-size: 40px;
+  padding: 30px;
+  margin: 10px;
+  gap: 10px;
+  color: lightsteelblue;
+  display: inline-flex;
+  flex-direction: column-reverse;
+  border: 3px solid lightsteelblue;
+  border-radius: 10px;
+}
+.fonticon {
+  font-size: 100px;
+}
+
+.small {
+  font-size: 20px;
+}
+
+.inline {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  gap: 30px;
+}
+
+.center {
+  text-align: center;
+}
+
+.title-skills {
+  text-align: center;
+}
+
+.gap {
+  justify-content: center;
+  display: flex;
+}
+
+.nav-title {
+  margin-left: 100px;
+}
+
+.images {
+  display: flex;
+  gap: 50px;
+  margin-left: 20px;
+  width: 470px;
+}
